@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>最後にいつ？ — サポート</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f4f7fb;
+    --surface: #ffffff;
+    --text: #1b2430;
+    --muted: #5d6b7c;
+    --accent: #0a6ed2;
+    --border: #e1e8f0;
+    --tint: #eaf3fd;
+    --tint-border: #0a6ed2;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f141b;
+      --surface: #161d26;
+      --text: #e7edf4;
+      --muted: #9aa9ba;
+      --accent: #5cadf5;
+      --border: #28323e;
+      --tint: #16283a;
+      --tint-border: #5cadf5;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+                 "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+    line-height: 1.85;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  main { max-width: 44rem; margin: 0 auto; }
+
+  header { text-align: center; margin-bottom: 2rem; }
+
+  .app-name {
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.2rem;
+  }
+
+  .page-label { color: var(--muted); margin: 0; font-size: 1rem; }
+
+  .meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.6rem; }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0 2rem;
+  }
+
+  nav a, nav span {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    text-decoration: none;
+    color: var(--accent);
+  }
+
+  nav span[aria-current] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+    font-weight: 600;
+  }
+
+  section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.6rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 0 0 1.1rem;
+    padding-bottom: 0.55rem;
+    border-bottom: 2px solid var(--border);
+  }
+
+  h3 { font-size: 1.02rem; margin: 1.6rem 0 0.4rem; }
+  h3:first-of-type { margin-top: 0; }
+
+  p { margin: 0.5rem 0; }
+  ul { margin: 0.5rem 0; padding-left: 1.3rem; }
+  li { margin: 0.3rem 0; }
+
+  .lead {
+    background: var(--tint);
+    border-left: 4px solid var(--tint-border);
+    border-radius: 0 8px 8px 0;
+    padding: 0.9rem 1.1rem;
+    margin: 0 0 1.4rem;
+    font-weight: 600;
+  }
+
+  dl { margin: 0; }
+
+  dt {
+    font-weight: 700;
+    margin-top: 1.5rem;
+    padding-left: 0.85rem;
+    border-left: 3px solid var(--accent);
+  }
+
+  dt:first-of-type { margin-top: 0; }
+
+  dd { margin: 0.35rem 0 0 0.85rem; color: var(--text); }
+
+  a { color: var(--accent); text-underline-offset: 2px; }
+
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-top: 2rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <p class="app-name">最後にいつ？</p>
+    <p class="page-label">サポート</p>
+  </header>
+
+  <nav>
+    <span aria-current="page">サポート</span>
+    <a href="privacy.html">プライバシーポリシー</a>
+  </nav>
+
+  <section>
+    <p class="lead">
+      「最後にいつ？」は、洗車・散髪・エアコンフィルター掃除などを
+      「最後にやったのはいつか」だけを記録しておく、シンプルな iPhone 用アプリです。
+    </p>
+
+    <h2>よくある質問</h2>
+
+    <dl>
+      <dt>項目を追加するには？</dt>
+      <dd>一覧の右上にある「＋」を押して、項目名・アイコン・色・初回の実施日を設定してください。実施日は今日が初期値ですが、「前回やったのは1週間前だった」というときは過去の日付を選べます。</dd>
+
+      <dt>「今日やった」を素早く記録するには？</dt>
+      <dd>一覧で項目を右にスワイプすると「今日やった」がすぐに実行できます。詳細画面にも大きな「今日やった」ボタンがあります。</dd>
+
+      <dt>間違えて記録してしまいました。</dt>
+      <dd>記録した直後であれば、画面下に出る「取り消す」で戻せます。時間が経ってしまった場合は、項目の詳細画面で履歴を左にスワイプすると削除できます。</dd>
+
+      <dt>過去にやった日をあとから追加できますか？</dt>
+      <dd>できます。項目の詳細画面にある「過去の日付で記録」から日付を選んでください。履歴の日付をタップすると、記録済みの日付を修正することもできます。</dd>
+
+      <dt>並び順を変えられますか？</dt>
+      <dd>一覧の左上のボタンから、登録順・経過が長い順・経過が短い順・名前順を選べます。選んだ並び順は次に開いたときにも保たれます。</dd>
+
+      <dt>通知やリマインダーは届きますか？</dt>
+      <dd>届きません。このアプリは「やらなければならないこと」を管理するものではなく、過去を気軽に記録しておくためのものなので、通知機能は用意していません。</dd>
+
+      <dt>項目を削除すると履歴はどうなりますか？</dt>
+      <dd>その項目に記録された履歴もすべて削除されます。削除前に確認画面で履歴の件数をお知らせします。削除した内容は元に戻せません。</dd>
+
+      <dt>機種変更するときは？</dt>
+      <dd>iCloud バックアップまたは暗号化されたローカルバックアップから新しい端末を復元すると、記録も一緒に引き継がれます。端末間でリアルタイムに同期する機能は、現在のバージョンにはありません。</dd>
+
+      <dt>データはどこに保存されますか？</dt>
+      <dd>お使いの端末の中だけです。外部のサーバーには一切送信されません。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>お問い合わせ</h2>
+    <p>不具合のご報告やご要望は、次の連絡先までお願いいたします。</p>
+    <p><a href="mailto:dashes-05-elm@icloud.com">dashes-05-elm@icloud.com</a></p>
+  </section>
+
+  <footer>
+    <p>最後にいつ？</p>
+  </footer>
+
+</main>
+</body>
+</html>
